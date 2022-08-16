@@ -1,0 +1,27 @@
+@import "normalize.css";
+@import "//at.alicdn.com/t/font_2253525_zxxxp9odeg8.css";
+.bx {
+    margin: 0 auto;
+    width: 1205px;
+}
+html {
+
+}
+body {
+    background-color: #f5f5f5 !important;
+    line-height: 1 !important;
+}
+
+ul,p, dl, dd {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h5,h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

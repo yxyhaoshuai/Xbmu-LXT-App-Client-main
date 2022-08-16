@@ -1,0 +1,29 @@
+
+@import "../../config/config";
+.section {
+  //background-color: tomato;
+  .title-bar {
+    line-height: 80px;
+    //background-color: darkcyan;
+
+    position: relative;
+    .title {
+      text-align: center;
+      font-size: 28px;
+      color: #780000;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .more {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #400000;
+      &:hover {
+        color: @themeColor;
+      }
+    }
+  }
+
+}
